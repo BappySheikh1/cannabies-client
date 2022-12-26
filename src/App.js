@@ -3,7 +3,7 @@ import Main from './layout/Main';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Main />
     </div>
   );

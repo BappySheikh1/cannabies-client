@@ -1,5 +1,6 @@
 import React from 'react';
 import ComponentSide from '../Pages/ComponentSide/Home'
+import ComponentHome from '../Pages/ComponentHome/Home/home'
 
 const Main = () => {
     return (
@@ -9,8 +10,8 @@ const Main = () => {
                 <ComponentSide />
              </div>
 
-             <div className='col-span-3 bg-yellow-300'>
-                <h2 className="text-2xl">Home-1</h2>
+             <div className='col-span-3 px-2 border'>
+                <ComponentHome />
             </div>
         </div>
     );
