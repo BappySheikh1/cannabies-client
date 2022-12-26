@@ -9,6 +9,7 @@ import { RiAuctionLine } from 'react-icons/ri';
 const RoyelAcDc = () => {
     return (
         <div >
+            {/* Rating and royal acdc start */}
             <div className='flex items-center justify-between'>
                 <div>
                    <h2 className='text-2xl text-[#4CAF50] font-semibold'>Royal ACDC Outdoor</h2>
@@ -26,7 +27,9 @@ const RoyelAcDc = () => {
                       <p className='text-gray-500'>4.9 (2130 reviews)</p>
                 </div>
             </div>
-
+            {/* Rating and royal acdc end */}
+ 
+        {/* category start */}
         <div className='my-5'>
             <div className='flex items-center justify-around'>
                 <p className='font-semibold'>Category: Flowers</p>
@@ -42,8 +45,9 @@ const RoyelAcDc = () => {
               <p className='font-semibold'>Brand: Gold</p>
             </div>
         </div>
+        {/* category end */}
             
-            {/* Box */}
+            {/* Box start*/}
             <div className='flex items-center justify-between'>
                    <div className='w-24 h-28 bg-[#4CAF50] rounded'>
                          <p className='text-white text-center  pt-4'>Total Stock</p>
@@ -101,13 +105,20 @@ const RoyelAcDc = () => {
                        
                        </div>
 
-                       <div className='w-1/2 bg-[#a4e7a6]'>
+                       <div className='w-1/2 bg-[]'>
                          <small className='text-gray-500 text-center '>Stock Allocated</small>          <div className="radial-progress" style={{"--value":70}}>100Ib</div>
                        </div>
 
                    </div>
             </div>
-
+            {/* box end */}
+ 
+       {/* section 1 footer start */}
+       <div className=' mt-7 flex items-center justify-between text-gray-500'>
+         <p>Created 25 July, 2021 </p>
+         <p>Posted by Rasmus Christiansen</p>
+       </div>
+       {/* section 1 footer end */}
         </div>
     );
 };
