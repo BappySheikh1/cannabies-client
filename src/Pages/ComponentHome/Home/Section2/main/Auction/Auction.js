@@ -30,7 +30,7 @@ const Auction = () => {
     ]
     return (
         <div>
-            <p className='text-black font-bold'>Auction Overview</p>
+            <p className='text-black font-bold mb-5 text-xl'>Auction Overview</p>
             <div>
                  {
                     items?.map((item,i) => <Card key={i} item={item}/>)

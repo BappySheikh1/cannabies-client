@@ -1,6 +1,7 @@
 import React from 'react';
 import Auction from './main/Auction/Auction';
 import Header from './main/Header/Header';
+import Insights from './main/Insights/Insights';
 
 const Section2 = () => {
     return (
@@ -11,8 +12,9 @@ const Section2 = () => {
                 <div>
                       <Auction />
                 </div>
-                <div>
 
+                <div>
+                     <Insights />
                 </div>
             </div>
         </div>
