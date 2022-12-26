@@ -1,9 +1,20 @@
 import React from 'react';
+import Auction from './main/Auction/Auction';
+import Header from './main/Header/Header';
 
 const Section2 = () => {
     return (
-        <div className='bg-white mt-1'>
-            <h2 className="text-2xl">Section 2</h2>
+        <div className='bg-white mt-1 rounded-lg p-2'>
+            <Header />
+            <hr className='my-2 '/>
+            <div>
+                <div>
+                      <Auction />
+                </div>
+                <div>
+
+                </div>
+            </div>
         </div>
     );
 };
