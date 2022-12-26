@@ -7,8 +7,11 @@ const home = () => {
     return (
         <div>
              <Navbar />
+
+             <div className='bg-[#cccaca] p-1'>
              <Section1 />
              <Section2 />
+             </div>
         </div>
     );
 };
