@@ -8,12 +8,12 @@ const Section2 = () => {
         <div className='bg-white mt-1 rounded-lg p-2'>
             <Header />
             <hr className='my-2 '/>
-            <div>
-                <div>
+            <div className='flex  items-center justify-evenly w-full'>
+                <div className='w-1/2'>
                       <Auction />
                 </div>
 
-                <div>
+                <div className='w-1/2'>
                      <Insights />
                 </div>
             </div>
